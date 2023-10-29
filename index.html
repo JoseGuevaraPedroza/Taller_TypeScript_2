@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller TypeScript 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid align-items-center m-3" >   
+        <div class="row">
+            <div class="col-9">
+                <table class="table table-light">
+                    <thead>
+                        <tr style="background: grey;">
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Temporada</th>
+                            <th>Canal</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cuerpo_tabla" style="background: rgb(225, 239, 244);">
+                
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-3 align-items-center border-1">
+                <div class="card m-3" style="height: fit-content; min-height: 35vh;">
+                    <img id="card_image" src="./assets/images/EvKe48G.jpg" referrerpolicy="no-referrer" class="card-img-top" alt="">
+                    <div class="card-body m-3" style="height: fit-content;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 id="card_title" class="card-title"></h5>
+                                </div>
+                                <div class="col-12">
+                                    <p id="card_text" class="card-text"></p>
+                                </div>
+                                <div class="col-12">
+                                    <a id="card_ref" href=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+    <div class="container-fluid" style="background: rgb(217, 205, 205);">
+        <h4 id = "promedio"></h4>
+    </div>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
